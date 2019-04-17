@@ -1,0 +1,106 @@
+/*
+ * Project page styles.
+ */
+
+.project {
+  padding-bottom: 8em;
+}
+
+.project-hero {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 3em;
+
+  @include min($tablet) {
+    min-height: 340px;
+  }
+
+  @include min($xxlarge) {
+    margin-bottom: 0;
+  }
+}
+
+.hero-header {
+  margin: auto 5% auto 0;
+  max-width: 640px;
+}
+
+.project-label {
+  margin-bottom: 1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.project-title {
+  letter-spacing: -1.5px;
+  line-height: 1.7;
+  font-size: 2.8rem;
+  font-weight: 400;
+
+  @include min($tablet) {
+    font-size: 3.8rem;
+  }
+}
+
+.project-intro {
+  padding: 3em 0 2em;
+  background: $white;
+
+  @include min($tablet) {
+    padding: 7em 0 4em;
+  }
+}
+
+.lede-content {
+  margin: auto;
+  max-width: 640px;
+  font-size: 2.8rem;
+  letter-spacing: -0.5px;
+
+  &.lede-content--wide {
+    max-width: 740px;
+  }
+}
+
+.lede {
+  line-height: 1.7;
+  font-size: 1.8rem;
+
+  @include min($tablet) {
+    font-size: 2.2rem;
+  }
+
+  a {
+    color: $primary-text;
+  }
+}
+
+.lede-list {
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 1.8rem;
+
+  @include min($tablet) {
+    padding: 30px 40px;
+    font-size: 2.2rem;
+  }
+}
+
+.cp_embed_wrapper {
+  display: block;
+  margin-bottom: 3em;
+}
+
+.lede-list__item {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+

@@ -35,6 +35,6 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "deploy": "gulp build && gh-pages -d dist"
+    "deploy": "gulp build && gh-pages -d dist -b master"
   }
 }
